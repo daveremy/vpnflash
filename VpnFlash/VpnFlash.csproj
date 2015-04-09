@@ -48,16 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FlashWindow.cs" />
-    <Compile Include="FlashWindowForm.cs">
+    <Compile Include="Helpers\VpnHelper.cs" />
+    <Compile Include="Helpers\FlashWindow.cs" />
+    <Compile Include="Forms\FlashWindowForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FlashWindowForm.Designer.cs">
+    <Compile Include="Forms\FlashWindowForm.Designer.cs">
       <DependentUpon>FlashWindowForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FlashWindowForm.resx">
+    <EmbeddedResource Include="Forms\FlashWindowForm.resx">
       <DependentUpon>FlashWindowForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

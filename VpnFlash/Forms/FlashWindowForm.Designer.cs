@@ -30,7 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FlashWindowForm));
             this.label_vpn_status = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.minimize_button = new System.Windows.Forms.Button();
+            this.disconnect_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_vpn_status
@@ -42,22 +43,34 @@
             this.label_vpn_status.TabIndex = 0;
             this.label_vpn_status.Text = "Determing VPN Status ...";
             // 
-            // button1
+            // minimize_button
             // 
-            this.button1.Location = new System.Drawing.Point(64, 123);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Minimize";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.minimize_button.Location = new System.Drawing.Point(183, 121);
+            this.minimize_button.Name = "minimize_button";
+            this.minimize_button.Size = new System.Drawing.Size(84, 26);
+            this.minimize_button.TabIndex = 1;
+            this.minimize_button.Text = "Minimize";
+            this.minimize_button.UseVisualStyleBackColor = true;
+            this.minimize_button.Click += new System.EventHandler(this.minimize_button_Click);
+            // 
+            // disconnect_button
+            // 
+            this.disconnect_button.Location = new System.Drawing.Point(64, 121);
+            this.disconnect_button.Name = "disconnect_button";
+            this.disconnect_button.Size = new System.Drawing.Size(102, 26);
+            this.disconnect_button.TabIndex = 2;
+            this.disconnect_button.Text = "DISCONNECT";
+            this.disconnect_button.UseVisualStyleBackColor = true;
+            this.disconnect_button.Visible = false;
+            this.disconnect_button.Click += new System.EventHandler(this.disconnect_button_Click);
             // 
             // FlashWindowForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(593, 174);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.disconnect_button);
+            this.Controls.Add(this.minimize_button);
             this.Controls.Add(this.label_vpn_status);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FlashWindowForm";
@@ -69,7 +82,8 @@
         #endregion
 
         private System.Windows.Forms.Label label_vpn_status;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button minimize_button;
+        private System.Windows.Forms.Button disconnect_button;
 
 
 

@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_AF4E6EE7E604445F9E6A7529F22637CC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_305C45BD0D2348E1858B925968F3F19C"
         "MsmSig" = "8:_UNDEFINED"
@@ -65,7 +71,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\VpnFlashInstall.msi"
+        "OutputFilename" = "8:..\\VpnFlash.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -120,12 +126,54 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AF4E6EE7E604445F9E6A7529F22637CC"
+            {
+            "SourcePath" = "8:..\\VpnFlash\\flash.ico"
+            "TargetName" = "8:flash.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_11425C25B08A413F99CAE0C6D9D20E50"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
         }
         "Folder"
         {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_8DFFB9B035B3460EADB70E40104A1EE5"
+            {
+            "Name" = "8:#1910"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:CommonFilesFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_11425C25B08A413F99CAE0C6D9D20E50"
+                    {
+                    "Name" = "8:VpnFlash"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_3829A6854F5A4AE2A6EDCA8905FF6171"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_A338DB2A320840D2A1AB0A7AD828E132"
             {
             "DefaultLocation" = "8:[ProgramFilesFolder]\\[ProductName]"
@@ -134,17 +182,6 @@
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:TARGETDIR"
-                "Folders"
-                {
-                }
-            }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_B072866AB5F2457499DDCE17F9ECF221"
-            {
-            "Name" = "8:#1916"
-            "AlwaysCreate" = "11:FALSE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Property" = "8:DesktopFolder"
                 "Folders"
                 {
                 }
@@ -158,6 +195,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_40A56D1D4CB8439C876A04FF8DC7D037"
+                    {
+                    "Name" = "8:VpnFlash"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_6B4145C7EE784C078E145013990D91DB"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_E9895C5932B442A0AE883B235FA2EAAE"
@@ -188,7 +236,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:VpnFlash"
         "ProductCode" = "8:{1426BE85-BB6A-4F3B-9D88-866FECF4B611}"
-        "PackageCode" = "8:{D583CA0E-0D7B-43CE-8E3B-57E93918FB6B}"
+        "PackageCode" = "8:{70718F92-0A4B-400C-A53B-D8B6560A53BE}"
         "UpgradeCode" = "8:{FC545E1F-066C-4747-9F60-D599405FEFF7}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -205,7 +253,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_AF4E6EE7E604445F9E6A7529F22637CC"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -319,7 +367,21 @@
             "Target" = "8:_305C45BD0D2348E1858B925968F3F19C"
             "Folder" = "8:_E9895C5932B442A0AE883B235FA2EAAE"
             "WorkingFolder" = "8:_A338DB2A320840D2A1AB0A7AD828E132"
-            "Icon" = "8:"
+            "Icon" = "8:_AF4E6EE7E604445F9E6A7529F22637CC"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_86903E8A3A6546FB8D1DEF5ACCBD733D"
+            {
+            "Name" = "8:VpnFlash"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_305C45BD0D2348E1858B925968F3F19C"
+            "Folder" = "8:_40A56D1D4CB8439C876A04FF8DC7D037"
+            "WorkingFolder" = "8:_A338DB2A320840D2A1AB0A7AD828E132"
+            "Icon" = "8:_AF4E6EE7E604445F9E6A7529F22637CC"
             "Feature" = "8:"
             }
         }

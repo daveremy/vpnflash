@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VpnFlash.Properties
-{
-
-
+namespace VpnFlash.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -63,9 +63,9 @@ namespace VpnFlash.Properties
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon circle {
+        internal static System.Drawing.Icon flash {
             get {
-                object obj = ResourceManager.GetObject("circle", resourceCulture);
+                object obj = ResourceManager.GetObject("flash", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

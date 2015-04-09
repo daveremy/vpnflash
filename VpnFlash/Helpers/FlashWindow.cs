@@ -6,7 +6,7 @@ namespace VpnFlash
 {
     public static class FlashWindow
     {
-        [DllImport("user32.dll")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1060:MovePInvokesToNativeMethodsClass"), DllImport("user32.dll")]
         [return: MarshalAs(UnmanagedType.Bool)]
         private static extern bool FlashWindowEx(ref FLASHWINFO pwfi);
 

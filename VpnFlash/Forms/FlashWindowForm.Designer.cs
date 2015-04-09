@@ -74,6 +74,7 @@
             this.Controls.Add(this.label_vpn_status);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FlashWindowForm";
+            this.Load += new System.EventHandler(this.FlashWindowForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

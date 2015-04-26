@@ -15,6 +15,18 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_20E891ED53DD53C97ADABD33CC4758F7"
+        "OwnerKey" = "8:_305C45BD0D2348E1858B925968F3F19C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_20E891ED53DD53C97ADABD33CC4758F7"
+        "OwnerKey" = "8:_C9DCFDD85CBB5851ABD0A6FDAE85579D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_305C45BD0D2348E1858B925968F3F19C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -27,8 +39,50 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_BF938ECE7F3087EF54B656536079C9D3"
+        "OwnerKey" = "8:_305C45BD0D2348E1858B925968F3F19C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BF938ECE7F3087EF54B656536079C9D3"
+        "OwnerKey" = "8:_C9DCFDD85CBB5851ABD0A6FDAE85579D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BF938ECE7F3087EF54B656536079C9D3"
+        "OwnerKey" = "8:_20E891ED53DD53C97ADABD33CC4758F7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C9DCFDD85CBB5851ABD0A6FDAE85579D"
+        "OwnerKey" = "8:_305C45BD0D2348E1858B925968F3F19C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_305C45BD0D2348E1858B925968F3F19C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C9DCFDD85CBB5851ABD0A6FDAE85579D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_20E891ED53DD53C97ADABD33CC4758F7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BF938ECE7F3087EF54B656536079C9D3"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -126,6 +180,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_20E891ED53DD53C97ADABD33CC4758F7"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_20E891ED53DD53C97ADABD33CC4758F7"
+                    {
+                    "Name" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A338DB2A320840D2A1AB0A7AD828E132"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AF4E6EE7E604445F9E6A7529F22637CC"
             {
             "SourcePath" = "8:..\\VpnFlash\\flash.ico"
@@ -144,6 +229,68 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BF938ECE7F3087EF54B656536079C9D3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_BF938ECE7F3087EF54B656536079C9D3"
+                    {
+                    "Name" = "8:Microsoft.WindowsAPICodePack.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.WindowsAPICodePack.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A338DB2A320840D2A1AB0A7AD828E132"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C9DCFDD85CBB5851ABD0A6FDAE85579D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack.ShellExtensions, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C9DCFDD85CBB5851ABD0A6FDAE85579D"
+                    {
+                    "Name" = "8:Microsoft.WindowsAPICodePack.ShellExtensions.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.WindowsAPICodePack.ShellExtensions.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A338DB2A320840D2A1AB0A7AD828E132"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
@@ -235,15 +382,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:VpnFlash"
-        "ProductCode" = "8:{1426BE85-BB6A-4F3B-9D88-866FECF4B611}"
-        "PackageCode" = "8:{70718F92-0A4B-400C-A53B-D8B6560A53BE}"
+        "ProductCode" = "8:{2B47B013-4929-48AB-AEA0-6264996D2F43}"
+        "PackageCode" = "8:{366B2FCA-49B8-4EE7-B5BF-DD16A152C4A7}"
         "UpgradeCode" = "8:{FC545E1F-066C-4747-9F60-D599405FEFF7}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:0.8.0"
         "Manufacturer" = "8:Dave Remy"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -251,7 +398,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
+        "ARPCOMMENTS" = "8:Flash in the Taskbar when VPN is active "
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:_AF4E6EE7E604445F9E6A7529F22637CC"
         "ARPIconIndex" = "3:0"
